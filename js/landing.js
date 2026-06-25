@@ -198,7 +198,7 @@ function contactWA() {
     const url = 'https://wa.me/573115078144?text=Hola,%20me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20flores.%20%C2%BFPodr%C3%ADan%20ayudarme%3F';
     try {
         gtag('event', 'conversion', {
-            'send_to': 'AW-18191445167/oikaCKmp6rMcEK_ZreJD',
+            'send_to': 'AW-17856332470/s_bcCIyQwMUcELaFyMJC',
             'value': 1.0,
             'currency': 'COP',
             'event_callback': function () {
@@ -220,7 +220,7 @@ function orderWA(productName, price, image) {
     const url = `https://wa.me/573115078144?text=${encodedMessage}`;
     try {
         gtag('event', 'conversion', {
-            'send_to': 'AW-18191445167/oikaCKmp6rMcEK_ZreJD',
+            'send_to': 'AW-17856332470/s_bcCIyQwMUcELaFyMJC',
             'value': 1.0,
             'currency': 'COP',
             'event_callback': function () {
