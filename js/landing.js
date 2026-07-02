@@ -128,7 +128,7 @@ function customCardHTML() {
                 <p>¿Tienes una idea en mente? Creamos un arreglo único a tu medida con tus flores, colores y presupuesto favoritos. Cuéntanos tu visión y la hacemos realidad.</p>
                 <div class="product-footer">
                     <span class="price price-custom">A tu gusto</span>
-                    <a class="btn-order btn-order-custom" href="https://wa.me/573202583471?text=${encodeURIComponent(waMsg)}" target="_blank">Diseñar el mío</a>
+                    <a class="btn-order btn-order-custom" href="https://wa.me/573136630970?text=${encodeURIComponent(waMsg)}" target="_blank">Diseñar el mío</a>
                 </div>
             </div>
         </div>`;
@@ -201,7 +201,7 @@ function renderProducts(filters = [], limit = null) {
 
 // --- FUNCIONES DE WHATSAPP ---
 function contactWA() {
-    const url = 'https://wa.me/573202583471?text=Hola,%20me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20flores.%20%C2%BFPodr%C3%ADan%20ayudarme%3F';
+    const url = 'https://wa.me/573136630970?text=Hola,%20me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20flores.%20%C2%BFPodr%C3%ADan%20ayudarme%3F';
     try {
         gtag('event', 'conversion', {
             'send_to': 'AW-17856332470/s_bcCIyQwMUcELaFyMJC',
@@ -223,7 +223,7 @@ function orderWA(productName, price, image) {
         message = `Hola, me interesa el producto: ${productName} - ${formatCOP(parseFloat(price))}\nFoto: ${photoUrl}`;
     }
     const encodedMessage = encodeURIComponent(message);
-    const url = `https://wa.me/573202583471?text=${encodedMessage}`;
+    const url = `https://wa.me/573136630970?text=${encodedMessage}`;
     try {
         gtag('event', 'conversion', {
             'send_to': 'AW-17856332470/s_bcCIyQwMUcELaFyMJC',
